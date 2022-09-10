@@ -15,7 +15,7 @@ string[] newStringArray = ChangeStringArray(inputStringArray, count);
 PrintArray(newStringArray, count);
 
 
-// подсчитывает строки с длинной <= 3
+// Подсчитывает строки с длинной <= 3
 int CountElement(string[] inString)
 {
     int count = 0;
@@ -43,7 +43,7 @@ string[] ChangeStringArray(string[] inStringArray, int count)
     return outStringArray;
 }
 
-// метод печати  массива 
+// Метод печати  массива 
 void PrintArray(string[] inStringArray, int count)
 {
     if (count == 0) Console.WriteLine("[]");
